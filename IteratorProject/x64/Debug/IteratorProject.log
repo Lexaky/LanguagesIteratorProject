@@ -1,7 +1,2 @@
 ﻿  IteratorProject.cpp
-C:\Users\lesha\source\repos\IteratorProject\IteratorProject\IteratorProject.cpp(14,25): warning C4566: символ, представленный универсальным именем символа "\u03BB", невозможно представить в текущей кодовой странице (1251)
-C:\Users\lesha\source\repos\IteratorProject\IteratorProject\IteratorProject.cpp(36,31): warning C4566: символ, представленный универсальным именем символа "\u03BB", невозможно представить в текущей кодовой странице (1251)
-C:\Users\lesha\source\repos\IteratorProject\IteratorProject\IteratorProject.cpp(57,23): warning C4566: символ, представленный универсальным именем символа "\u03BB", невозможно представить в текущей кодовой странице (1251)
-C:\Users\lesha\source\repos\IteratorProject\IteratorProject\IteratorProject.cpp(70,23): warning C4566: символ, представленный универсальным именем символа "\u03BB", невозможно представить в текущей кодовой странице (1251)
-C:\Users\lesha\source\repos\IteratorProject\IteratorProject\IteratorProject.cpp(80,34): warning C4566: символ, представленный универсальным именем символа "\u03BB", невозможно представить в текущей кодовой странице (1251)
   IteratorProject.vcxproj -> C:\Users\lesha\source\repos\IteratorProject\x64\Debug\IteratorProject.exe

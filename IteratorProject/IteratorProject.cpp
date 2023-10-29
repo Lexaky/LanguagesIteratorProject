@@ -4,6 +4,10 @@
 #include <string>
 #include <vector>
 
+#define lambdaStr "?"
+#define lambdaChar '?'
+
+
 void outputLanguage(std::vector<std::string> L)
 { // Outputs signs in L language
     if (L.size() != 0)
@@ -11,7 +15,7 @@ void outputLanguage(std::vector<std::string> L)
         std::cout << "<";
         for (int i = 0; i < L.size(); i++)
         {
-            if (L[i] != "λ")
+            if (L[i] != lambdaStr)
                 std::cout << L[i];
             else std::cout << "" << std::endl;
             if (i + 1 != L.size())
@@ -33,7 +37,7 @@ void inputStr(std::vector<std::string> &inputString)
     
     if (getStr.length() == 0)
     {
-        inputString.push_back("λ");
+        inputString.push_back(lambdaStr);
     }
     else
     {
@@ -54,7 +58,7 @@ bool isLambda(std::string str)
 { // return true if str is a lambda symbol
     if (str.length() > 0 && str.length() == 1)
     {
-        if (str[0] == 'λ')
+        if (str[0] == lambdaChar)
             return true;
         else return false;
     }
@@ -67,7 +71,7 @@ bool isContainLambda(std::string str)
 {
     for (int i = 0; i < str.length(); i++)
     {
-        if (str[i] == 'λ')
+        if (str[i] == lambdaChar)
             return true;
     }
     return false;
@@ -77,7 +81,7 @@ void returnStrWithoutLambdas(std::string &strWithLambdas)
 {
     for (int i = 0; i < strWithLambdas.length(); i++)
     {
-        if (strWithLambdas[i] == 'λ')
+        if (strWithLambdas[i] == lambdaChar)
         {
             strWithLambdas.erase(i, 1);
             i--;
@@ -147,7 +151,7 @@ void enterCountOfIterates(int& iters)
 }
 
 int main()
-{ // λ
+{ // lambda
     
     //create types
     std::vector <std::string> Language; //base-language
