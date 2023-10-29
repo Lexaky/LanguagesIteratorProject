@@ -23,6 +23,11 @@ L1: win,ubuntu
 Count of iterates: 1
 <testwin;testubuntu;systemwin;systemubuntu>
 ~~~~~~~
+L: 12???45,32
+L1: a,b?c,d
+Count of iterates: 2
+<12451245a;12451245bc;12451245d;124532a;124532bc;124532d;321245a;321245bc;321245d;3232a;3232bc;3232d>
+~~~~~~~
 L: 0,1
 L1: 0,1
 Count of iterates: 3
